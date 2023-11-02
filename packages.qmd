@@ -1,0 +1,12 @@
+---
+title: "Packages"
+---
+
+WILDS Packages:
+
+```{r echo=FALSE}
+library(gh)
+my_repos <- gh("GET /orgs/{username}/repos", username = "getwilds")
+repos <- vapply(my_repos, "[[", "", "name")
+for (i in repos) cat(i, sep = "\n")
+```
