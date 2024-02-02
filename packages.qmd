@@ -11,8 +11,9 @@ library(cli)
 ```
 
 ```{r echo=FALSE, results="asis"}
+cat("NOTE: filtering out forks for now...\n\n")
 my_repos <- gh("GET /orgs/{username}/repos", username = "getwilds")
-# Filter(function(x) x$fork, my_repos)
+my_repos <- Filter(function(x) !x$fork, my_repos)
 # repos <- vapply(my_repos, "[[", "", "name")
 for (i in my_repos) {
   cat("{{< fa box-open >}}  ")
