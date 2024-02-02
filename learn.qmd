@@ -2,4 +2,7 @@
 title: "Learn"
 ---
 
-About this site
+- something about the training we offer?
+- point to package docs?
+- point to package sciwiki pages?
+- point to external resources?

@@ -1,0 +1,17 @@
+---
+title: "Get involved"
+---
+
+## DASL Guide
+
+The [DaSL Contributor Guide][guide] is the home for resources and best practices for WDL workflows, translational analytics projects, Docker files and software.
+
+In addition, the guide outlines the best practices that we at DaSL strive to follow.
+
+
+## Make a contribution
+
+If you'd like to make a contribution to any DASL WILDS products please open a pull request in the respective GitHub repository. For example, if you want to make a contribution to the [sixtyfour][] package, open a pull request in the repository for that package at <https://github.com/getwilds/sixtyfour/>.
+
+
+[guide]: https://getwilds.org/guide/

@@ -2,11 +2,22 @@
 title: "Packages"
 ---
 
-WILDS Packages:
+## WILDS Packages
 
-```{r echo=FALSE}
+```{r include=FALSE}
 library(gh)
-my_repos <- gh("GET /orgs/{username}/repos", username = "getwilds")
-repos <- vapply(my_repos, "[[", "", "name")
-for (i in repos) cat(i, sep = "\n")
+library(glue)
+library(cli)
 ```
+
+```{r echo=FALSE, results="asis"}
+my_repos <- gh("GET /orgs/{username}/repos", username = "getwilds")
+# Filter(function(x) x$fork, my_repos)
+# repos <- vapply(my_repos, "[[", "", "name")
+for (i in my_repos) {
+  cat("{{< fa box-open >}}  ")
+  cat(glue("<a href={i$html_url} target='_blank'>{ i$name}</a> {ifelse(is.null(i$description), '', paste0('- ' , glue::trim(i$description)))}"), sep = "\n")
+  cat('\n')
+}
+```
+
