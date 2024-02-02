@@ -13,7 +13,7 @@ website:
       - packages.qmd
       - learn.qmd
       - help.qmd
-      - contribute.qmd
+      - getinvolved.qmd
 
 format:
   html:

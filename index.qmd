@@ -2,73 +2,8 @@
 title: "WILDS"
 ---
 
-This is a Quarto website.
+This is the home of the Fred Hutch Data Science Lab (DaSL) WILDS (Workflows for Integration of Large Data and Software).
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-a
-asdf
-a
-sd
-asdf
+You can find DaSL at [hutchdatascience.org][dasl].
 
-asfd
-
-asdf
-asdf
-
-
-asdf
-
-asdf
-
-asd
-
-asdfa
-
-sd as
-
-das
-
-cdvas
-
-cdva
-
-sda
-
-sfda
-
-sfd
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-asdf
-
-
+[dasl]: https://hutchdatascience.org/

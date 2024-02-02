@@ -2,4 +2,11 @@
 title: "Help"
 ---
 
-About this site
+## Report a problem/ask a question/etc
+
+If you have a problem with any DaSL WILDS products please open an issue in the respective GitHub repository. For example, if you have an issue or question with the [sixtyfour][] package, open an issue in the issue tracker for that package at <https://github.com/getwilds/sixtyfour/issues>.
+
+
+
+[sixtyfour]: https://github.com/getwilds/sixtyfour/
+
