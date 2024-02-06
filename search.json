@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "learn.html",
-    "href": "learn.html",
-    "title": "Learn",
-    "section": "",
-    "text": "something about the training we offer?\npoint to package docs?\npoint to package sciwiki pages?\npoint to external resources?"
-  },
-  {
-    "objectID": "help.html",
-    "href": "help.html",
-    "title": "Help",
-    "section": "",
-    "text": "If you have a problem with any DaSL WILDS products please open an issue in the respective GitHub repository. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that package at https://github.com/getwilds/sixtyfour/issues."
-  },
-  {
-    "objectID": "help.html#report-a-problemask-a-questionetc",
-    "href": "help.html#report-a-problemask-a-questionetc",
-    "title": "Help",
-    "section": "",
-    "text": "If you have a problem with any DaSL WILDS products please open an issue in the respective GitHub repository. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that package at https://github.com/getwilds/sixtyfour/issues."
-  },
-  {
     "objectID": "getinvolved.html",
     "href": "getinvolved.html",
     "title": "Get involved",
@@ -42,6 +21,27 @@
     "text": "Make a contribution\nIf you’d like to make a contribution to any DASL WILDS products please open a pull request in the respective GitHub repository. For example, if you want to make a contribution to the [sixtyfour][] package, open a pull request in the repository for that package at https://github.com/getwilds/sixtyfour/."
   },
   {
+    "objectID": "learn.html",
+    "href": "learn.html",
+    "title": "Learn",
+    "section": "",
+    "text": "something about the training we offer?\npoint to package docs?\npoint to package sciwiki pages?\npoint to external resources?"
+  },
+  {
+    "objectID": "packages.html",
+    "href": "packages.html",
+    "title": "Packages",
+    "section": "",
+    "text": "NOTE: filtering out forks for now…\n rcromwell - R client for interacting with Cromwell with WDL workflows\n tg-wdl-SRA-STAR - Workflow to download paired fastqs from SRA and pass through STAR 2 pass\n tg-wdl-cellRanger - A basic starting point for a cell ranger workflow\n tg-star-deseq2-wdl - A demo repo to help folks run Star on RNA seq data and do DEseq2\n sixtyfour - 🚚 CEO, entrepreneur\n trailhead - A repository where we collect requests for new tools, workflows or support materials to be added to the WILDS.\n guide - DaSL Dev Guide\n badges - WILDS Badges\n makefiles - Makefile templates for WILDS projects\n getwilds.github.io - WILDS Website\n cancerprof\n proofr - Client for the PROOF API\n fastq-to-cram - Self-contained WDL workflow that converts a WGS FASTQ file into an unmapped CRAM file"
+  },
+  {
+    "objectID": "packages.html#wilds-packages",
+    "href": "packages.html#wilds-packages",
+    "title": "Packages",
+    "section": "",
+    "text": "NOTE: filtering out forks for now…\n rcromwell - R client for interacting with Cromwell with WDL workflows\n tg-wdl-SRA-STAR - Workflow to download paired fastqs from SRA and pass through STAR 2 pass\n tg-wdl-cellRanger - A basic starting point for a cell ranger workflow\n tg-star-deseq2-wdl - A demo repo to help folks run Star on RNA seq data and do DEseq2\n sixtyfour - 🚚 CEO, entrepreneur\n trailhead - A repository where we collect requests for new tools, workflows or support materials to be added to the WILDS.\n guide - DaSL Dev Guide\n badges - WILDS Badges\n makefiles - Makefile templates for WILDS projects\n getwilds.github.io - WILDS Website\n cancerprof\n proofr - Client for the PROOF API\n fastq-to-cram - Self-contained WDL workflow that converts a WGS FASTQ file into an unmapped CRAM file"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "WILDS",
@@ -49,17 +49,17 @@
     "text": "This is the home of the Fred Hutch Data Science Lab (DaSL) WILDS (Workflows for Integration of Large Data and Software).\nYou can find DaSL at hutchdatascience.org."
   },
   {
-    "objectID": "packages.html",
-    "href": "packages.html",
-    "title": "Packages",
+    "objectID": "help.html",
+    "href": "help.html",
+    "title": "Help",
     "section": "",
-    "text": "NOTE: filtering out forks for now…\n rcromwell - R client for interacting with Cromwell with WDL workflows\n tg-wdl-multicloud - Test staging inputs from multiple clouds\n tg-wdl-UWLM-Oncoplex\n tg-wdl-SRA-STAR - Workflow to download paired fastqs from SRA and pass through STAR 2 pass\n tg-wdl-cellRanger - A basic starting point for a cell ranger workflow\n tg-star-deseq2-wdl - A demo repo to help folks run Star on RNA seq data and do DEseq2\n sixtyfour - 🚚 CEO, entrepreneur\n trailhead - A repository where we collect requests for new tools, workflows or support materials to be added to the WILDS.\n guide - DaSL Dev Guide\n badges - WILDS Badges\n makefiles - Makefile templates for WILDS projects\n getwilds.github.io - WILDS Website\n cancerprof\n proofr - Client for the PROOF API\n fastq-to-cram - Self-contained WDL workflow that converts a WGS FASTQ file into an unmapped CRAM file"
+    "text": "If you have a problem with any DaSL WILDS products please open an issue in the respective GitHub repository. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that package at https://github.com/getwilds/sixtyfour/issues."
   },
   {
-    "objectID": "packages.html#wilds-packages",
-    "href": "packages.html#wilds-packages",
-    "title": "Packages",
+    "objectID": "help.html#report-a-problemask-a-questionetc",
+    "href": "help.html#report-a-problemask-a-questionetc",
+    "title": "Help",
     "section": "",
-    "text": "NOTE: filtering out forks for now…\n rcromwell - R client for interacting with Cromwell with WDL workflows\n tg-wdl-multicloud - Test staging inputs from multiple clouds\n tg-wdl-UWLM-Oncoplex\n tg-wdl-SRA-STAR - Workflow to download paired fastqs from SRA and pass through STAR 2 pass\n tg-wdl-cellRanger - A basic starting point for a cell ranger workflow\n tg-star-deseq2-wdl - A demo repo to help folks run Star on RNA seq data and do DEseq2\n sixtyfour - 🚚 CEO, entrepreneur\n trailhead - A repository where we collect requests for new tools, workflows or support materials to be added to the WILDS.\n guide - DaSL Dev Guide\n badges - WILDS Badges\n makefiles - Makefile templates for WILDS projects\n getwilds.github.io - WILDS Website\n cancerprof\n proofr - Client for the PROOF API\n fastq-to-cram - Self-contained WDL workflow that converts a WGS FASTQ file into an unmapped CRAM file"
+    "text": "If you have a problem with any DaSL WILDS products please open an issue in the respective GitHub repository. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that package at https://github.com/getwilds/sixtyfour/issues."
   }
 ]
