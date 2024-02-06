@@ -1,0 +1,11 @@
+Package: getwilds.github.io
+Title: DaSL WILDS Website
+Version: 0.1.0
+Authors@R: c(
+  person("The", "Authors", , "some@email.org", c("aut", "cre"))
+  )
+Imports:
+    rmarkdown
+URL: https://github.com/getwilds/getwilds.github.io
+BugReports: https://github.com/getwilds/getwilds.github.io/issues
+License: CC0
