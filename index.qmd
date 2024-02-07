@@ -2,8 +2,21 @@
 title: "WILDS"
 ---
 
+```{r setup, echo=FALSE}
+library(htmltools)
+```
+
 This is the home of the Fred Hutch Data Science Lab (DaSL) WILDS (Workflows for Integration of Large Data and Software).
 
 You can find DaSL at [hutchdatascience.org][dasl].
+
+```{r fix-me-hack-to-include-fontawesome-css, echo=FALSE}
+cat("{{< fa box-open >}}  ")
+```
+
+```{r echo=FALSE, results="asis"}
+library(htmltools)
+HTML('<a class="btn btn-primary" href="packages.html" role="button"><i class="fa-solid fa-box-open"></i> WILDS Packages</a>')
+```
 
 [dasl]: https://hutchdatascience.org/
