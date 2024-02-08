@@ -5,6 +5,7 @@ Authors@R: c(
   person("The", "Authors", , "some@email.org", c("aut", "cre"))
   )
 Imports:
+    bs,
     cli,
     gh,
     glue,
@@ -12,3 +13,5 @@ Imports:
 URL: https://github.com/getwilds/getwilds.github.io
 BugReports: https://github.com/getwilds/getwilds.github.io/issues
 License: CC0
+Remotes:
+    getwilds/bs

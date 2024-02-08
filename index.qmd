@@ -3,7 +3,7 @@ title: "WILDS"
 ---
 
 ```{r setup, echo=FALSE}
-library(htmltools)
+library(bs)
 ```
 
 This is the home of the Fred Hutch Data Science Lab (DaSL) WILDS (Workflows for Integration of Large Data and Software).
@@ -15,8 +15,7 @@ cat("{{< fa box-open >}}  ")
 ```
 
 ```{r echo=FALSE, results="asis"}
-library(htmltools)
-HTML('<a class="btn btn-primary" href="packages.html" role="button"><i class="fa-solid fa-box-open"></i> WILDS Packages</a>')
+button("<i class=\"fa-solid fa-box-open\"></i> WILDS Packages", href = "packages.html")
 ```
 
 [dasl]: https://hutchdatascience.org/
