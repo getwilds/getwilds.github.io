@@ -1,21 +1,56 @@
----
-title: "WILDS"
----
-
-```{r setup, echo=FALSE}
+```{r setup, echo=FALSE, message=FALSE}
 library(bs)
+library(bslib)
+library(htmltools)
+
+# from bslib docs
+anim_width <- function(x, width1, width2) {
+  x |> tagAppendAttributes(
+    class = "animate-width",
+    style = css(
+      `--width1` = validateCssUnit(width1),
+      `--width2` = validateCssUnit(width2),
+    ),
+  )
+}
 ```
 
-This is the home of the Fred Hutch Data Science Lab (DaSL) WILDS (Workflows for Integration of Large Data and Software).
+# WILDS {.center1big}
 
-You can find DaSL at [hutchdatascience.org][dasl].
+<center>
+*This is the home of the Fred Hutch Data Science Lab (DaSL)<br>WILDS (Workflows for Integration of Large Data and Software).*
+<br><br>
+Find DaSL at <a href="https://hutchdatascience.org/">hutchdatascience.org</a>
+</center>
+
 
 ```{r fix-me-hack-to-include-fontawesome-css, echo=FALSE}
 cat("{{< fa box-open >}}  ")
 ```
 
-```{r echo=FALSE, results="asis"}
-button("<i class=\"fa-solid fa-box-open\"></i> WILDS Packages", href = "packages.html")
+<!-- ```{r echo=FALSE, results="asis"}
+bs::button("<i class=\"fa-solid fa-box-open\"></i> WILDS Packages", href = "packages.html")
+``` -->
+
+{{< include cards.qmd >}}
+
+# Code {.center1}
+
+```{r code, echo=FALSE, results="asis"}
+layout_column_wrap(
+  width = "200px", height = 500,
+  card_r, card_python, card_docker, card_wdl, card_ta
+) |>
+  anim_width("100%", "67%")
 ```
 
+# Get involved {.center1}
+
+{{< fa circle-info >}} **Read** - [DaSL Contributor Guide][guide]
+
+{{< fa hammer >}} **Contribute** - See our [packages page](packages.html)
+
+
+
 [dasl]: https://hutchdatascience.org/
+[guide]: https://getwilds.org/guide/

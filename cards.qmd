@@ -1,0 +1,54 @@
+```{r echo=FALSE, results="asis", message=FALSE}
+library(bslib)
+
+card_r <- card(
+  card_header(
+    class = "bg-dark",
+    "R packages"
+  ),
+  card_image(
+    file = "assets/Rlogo.svg",
+    href = "packages.html"
+  )
+)
+card_python <- card(
+  card_header(
+    class = "bg-dark",
+    "Python packages"
+  ),
+  card_image(
+    file = "assets/Pythonlogo.svg",
+    href = "packages.html"
+  )
+)
+card_docker <- card(
+  card_header(
+    class = "bg-dark",
+    "Docker recipes"
+  ),
+  card_image(
+    file = "assets/docker.svg",
+    href = "packages.html"
+  )
+)
+card_wdl <- card(
+  card_header(
+    class = "bg-dark",
+    "WDL workflows"
+  ),
+  card_image(
+    file = "assets/WDLlogo.png",
+    href = "packages.html"
+  )
+)
+card_ta <- card(
+  card_header(
+    class = "bg-dark",
+    "Translationals Analytics workflows"
+  ),
+  card_image(
+    file = "assets/WDLlogo.png",
+    href = "packages.html"
+  )
+)
+```
