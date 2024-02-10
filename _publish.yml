@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: dd73952d-cc41-4d66-9639-82a50422fb40
+      url: 'https://tubular-moonbeam-44f3f6.netlify.app'
