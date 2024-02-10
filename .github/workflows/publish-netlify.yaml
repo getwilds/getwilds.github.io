@@ -1,7 +1,9 @@
 on:
   push:
     branches:
-      - main
+      - "*"
+      - "!main"
+      - "!gh-pages"
 
 name: Netlify
 
