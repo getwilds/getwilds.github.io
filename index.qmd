@@ -1,6 +1,11 @@
 ---
-title: "WILDS"
+title: "Welcome to WILDS"
+toc: false
 ---
+
+### The Open Source Software Office of the Fred Hutchinson Cancer Center
+
+#### Our Mission
 
 This is the home of the Fred Hutch Data Science Lab (DaSL) WILDS (Workflows for Integration of Large Data and Software).
 
