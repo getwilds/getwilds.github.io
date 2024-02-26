@@ -7,8 +7,17 @@ toc: false
 
 #### Our Mission
 
-This is the home of the Fred Hutch Data Science Lab (DaSL) WILDS (Workflows for Integration of Large Data and Software).
+In regocnition of ther fact that open source software is the engine of 
+biomedical data science, the Data Science Lab (DaSL) created WILDS, the open 
+source software office of the Fred Hutch Cancer Center. The mission of WILDS
+includes the following:
 
-You can find DaSL at [hutchdatascience.org][dasl].
-
-[dasl]: https://hutchdatascience.org/
+- Engage with people developing open-source software across the Cancer 
+Consortium.​
+- Elevate the quality of open-source software being developed at Fred Hutch.​
+- Empower new open-source developers by evangelizing best practices and 
+catalyzing community around the open-source software development process.​
+- Connect developers, researchers, and providers to opportunities to share, 
+academically publish, and publicize their software.​
+- Collaborate within the Fred Hutch community to build the next generation of
+open source software tools.

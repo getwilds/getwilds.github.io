@@ -11,7 +11,7 @@ website:
       - href: index.qmd
         text: Home
       - packages.qmd
-      - learn.qmd
+      #- learn.qmd
       - help.qmd
       - getinvolved.qmd
     right:
