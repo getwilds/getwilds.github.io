@@ -51,7 +51,7 @@ open source software tools.
 ```{r code, echo=FALSE, results="asis"}
 layout_column_wrap(
   width = "200px", height = 500,
-  card_r, card_python, card_docker, card_wdl, card_ta
+  card_r, card_python, card_docker, card_ta, card_wdl
 ) |>
   anim_width("100%", "67%")
 ```
