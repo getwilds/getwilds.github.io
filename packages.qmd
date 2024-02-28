@@ -8,17 +8,25 @@ title: "Packages"
 library(gh)
 library(glue)
 library(cli)
+exclude <- c(
+  # Self
+  "getwilds.github.io",
+  # WILDS infrastructure
+  ".github", "guide", "badges", "makefiles", "trailhead",
+  # Other
+  "scp-drawio"
+)
 ```
 
 ```{r echo=FALSE, results="asis"}
 #cat("NOTE: filtering out forks for now...\n\n")
 my_repos <- gh("GET /orgs/{username}/repos", username = "getwilds")
 my_repos <- Filter(function(x) !x$fork, my_repos)
-# repos <- vapply(my_repos, "[[", "", "name")
+my_repos <- Filter(function(x) !x$name %in% exclude, my_repos)
+# vapply(my_repos, "[[", "", "name")
 for (i in my_repos) {
   cat("{{< fa box-open >}}  ")
   cat(glue("<a href={i$html_url} target='_blank'>{ i$name}</a> {ifelse(is.null(i$description), '', paste0('- ' , glue::trim(i$description)))}"), sep = "\n")
   cat('\n')
 }
 ```
-
