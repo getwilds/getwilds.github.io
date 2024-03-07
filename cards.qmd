@@ -4,7 +4,7 @@ library(bslib)
 card_r <- card(
   card_header(
     class = "bg-dark",
-    "R packages"
+    "R Packages"
   ),
   card_image(
     file = "assets/Rlogo.svg",
@@ -14,7 +14,7 @@ card_r <- card(
 card_python <- card(
   card_header(
     class = "bg-dark",
-    "Python packages"
+    "Python Packages"
   ),
   card_image(
     file = "assets/Pythonlogo.svg",
@@ -24,7 +24,7 @@ card_python <- card(
 card_docker <- card(
   card_header(
     class = "bg-dark",
-    "Docker recipes"
+    "Docker Recipes"
   ),
   card_image(
     file = "assets/docker.svg",
@@ -34,7 +34,7 @@ card_docker <- card(
 card_ta <- card(
   card_header(
     class = "bg-dark",
-    "Translationals Analytics workflows"
+    "Translationals Analytics Workflows"
   ),
   card_image(
     # from https://openverse.org/image/23285241-55a0-441c-a57b-4f6f1343ea63?q=flask
@@ -45,7 +45,7 @@ card_ta <- card(
 card_wdl <- card(
   card_header(
     class = "bg-dark",
-    "WDL workflows"
+    "WDL Workflows"
   ),
   card_image(
     file = "assets/WDLlogo.png",
