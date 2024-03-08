@@ -3,7 +3,7 @@ title: "Welcome to WILDS"
 toc: false
 ---
 
-```{r setup, echo=FALSE, message=FALSE}
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
 library(bs)
 library(bslib)
 library(htmltools)
@@ -52,7 +52,7 @@ open source software tools.
 ```{r code, echo=FALSE, results="asis"}
 layout_column_wrap(
   width = "200px", height = 500,
-  card_r, card_python, card_docker, card_ta, card_wdl
+  card_r, card_python, card_docker, card_comp, card_wdl, card_nf
 ) |>
   anim_width("100%", "67%")
 ```

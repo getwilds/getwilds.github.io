@@ -31,15 +31,15 @@ card_docker <- card(
     href = "packages.html"
   )
 )
-card_ta <- card(
+card_comp <- card(
   card_header(
     class = "bg-dark",
-    "Translationals Analytics Workflows"
+    "Research Compendia"
   ),
   card_image(
-    # from https://openverse.org/image/23285241-55a0-441c-a57b-4f6f1343ea63?q=flask
-    file = "assets/flask.png",
-    href = "packages.html"
+    # from research-compendium.github.io
+    file = "assets/rc-logo.svg",
+    href = "packages.html",
   )
 )
 card_wdl <- card(
@@ -49,6 +49,16 @@ card_wdl <- card(
   ),
   card_image(
     file = "assets/WDLlogo.png",
+    href = "packages.html"
+  )
+)
+card_nf <- card(
+  card_header(
+    class = "bg-dark",
+    "Nextflow Workflows"
+  ),
+  card_image(
+    file = "assets/nf-logo.png",
     href = "packages.html"
   )
 )
