@@ -3,7 +3,7 @@ title: "Welcome to WILDS"
 toc: false
 ---
 
-```{r setup, echo=FALSE, message=FALSE}
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
 library(bs)
 library(bslib)
 library(htmltools)
@@ -52,7 +52,7 @@ open source software tools.
 ```{r code, echo=FALSE, results="asis"}
 layout_column_wrap(
   width = "200px", height = 500,
-  card_r, card_python, card_docker, card_ta, card_wdl
+  card_r, card_python, card_docker, card_comp, card_wdl, card_nf
 ) |>
   anim_width("100%", "67%")
 ```
@@ -61,7 +61,7 @@ layout_column_wrap(
 
 # Get involved {.center1}
 
-{{< fa circle-info >}} **Read** - [DaSL Contributor Guide][guide]
+{{< fa circle-info >}} **Read** - [WILDS Contributor Guide][guide]
 
 {{< fa hammer >}} **Contribute** - See our [packages page](packages.html)
 
