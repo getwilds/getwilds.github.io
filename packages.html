@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -163,17 +163,17 @@ ul.task-list li input[type="checkbox"] {
 <p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/tg-wdl-cellRanger" target="_blank">tg-wdl-cellRanger</a> - A basic starting point for a cell ranger workflow</p>
 <p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/tg-star-deseq2-wdl" target="_blank">tg-star-deseq2-wdl</a> - A demo repo to help folks run Star on RNA seq data and do DEseq2</p>
 <p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/sixtyfour" target="_blank">sixtyfour</a> - 🚚 CEO, entrepreneur</p>
-<p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/trailhead" target="_blank">trailhead</a> - A repository where we collect requests for new tools, workflows or support materials to be added to the WILDS.</p>
-<p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/guide" target="_blank">guide</a> - DaSL Dev Guide</p>
+<p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/guide" target="_blank">guide</a> - WILDS Dev Guide</p>
 <p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/badges" target="_blank">badges</a> - WILDS Badges</p>
 <p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/makefiles" target="_blank">makefiles</a> - Makefile templates for WILDS projects</p>
 <p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/getwilds.github.io" target="_blank">getwilds.github.io</a> - WILDS Website</p>
-<p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/cancerprof" target="_blank">cancerprof</a></p>
+<p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/cancerprof" target="_blank">cancerprof</a> - API Client for State Cancer Profiles</p>
 <p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/proofr" target="_blank">proofr</a> - Client for the PROOF API</p>
 <p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/fastq-to-cram" target="_blank">fastq-to-cram</a> - Self-contained WDL workflow that converts a WGS FASTQ file into an unmapped CRAM file</p>
 <p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/bs" target="_blank">bs</a> - Bootstrap Components for DASL Projects</p>
 <p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/wilds-docker-library" target="_blank">wilds-docker-library</a> - Central location for all Docker containers associated with WILDS workflows</p>
 <p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/.github" target="_blank">.github</a></p>
+<p><i class="fa-solid fa-box-open" aria-label="box-open"></i> <a href="https://github.com/getwilds/wdl-101" target="_blank">wdl-101</a> - This is the repository for the WDL and JSON files accompanying the WDL 101 course.</p>
 
 
 </section>
@@ -258,6 +258,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/getwilds\.org");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -292,7 +310,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
