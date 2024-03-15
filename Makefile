@@ -6,7 +6,7 @@ install_deps:
 	-e 'if (!requireNamespace("remotes")) install.packages("remotes")' \
 	-e 'remotes::install_deps(dependencies = TRUE)'
 
-preview: install_deps
+preview: install_deps render
 	quarto preview .
 
 render: install_deps
