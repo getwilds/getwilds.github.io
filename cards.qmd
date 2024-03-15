@@ -1,12 +1,25 @@
 ```{r echo=FALSE, results="asis", message=FALSE}
 library(bslib)
+library(htmltools)
+library(glue)
+
+# replacement for card_image to fix images stretching
+# FIXME:
+c_image <- function(file, href, max_width = "100%") {
+  div(style = "display: flex; justify-content: center; align-items: center; height: 100%;",
+    tags$a(
+      href = href,
+      img(src = file, style = glue("max-width: {max_width}; height: auto;"))
+    )
+  )
+}
 
 card_r <- card(
   card_header(
     class = "bg-dark",
     "R Packages"
   ),
-  card_image(
+  c_image(
     file = "assets/Rlogo.svg",
     href = "packages.html"
   )
@@ -16,7 +29,7 @@ card_python <- card(
     class = "bg-dark",
     "Python Packages"
   ),
-  card_image(
+  c_image(
     file = "assets/Pythonlogo.svg",
     href = "packages.html"
   )
@@ -26,7 +39,7 @@ card_docker <- card(
     class = "bg-dark",
     "Docker Recipes"
   ),
-  card_image(
+  c_image(
     file = "assets/docker.svg",
     href = "packages.html"
   )
@@ -36,10 +49,11 @@ card_comp <- card(
     class = "bg-dark",
     "Research Compendia"
   ),
-  card_image(
+  c_image(
     # from research-compendium.github.io
     file = "assets/rc-logo.svg",
     href = "packages.html",
+    max_width = "88%"
   )
 )
 card_wdl <- card(
@@ -47,7 +61,7 @@ card_wdl <- card(
     class = "bg-dark",
     "WDL Workflows"
   ),
-  card_image(
+  c_image(
     file = "assets/WDLlogo.png",
     href = "packages.html"
   )
@@ -57,7 +71,7 @@ card_nf <- card(
     class = "bg-dark",
     "Nextflow Workflows"
   ),
-  card_image(
+  c_image(
     file = "assets/nf-logo.png",
     href = "packages.html"
   )
