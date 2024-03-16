@@ -5,28 +5,70 @@ title: "Packages"
 ## WILDS Packages
 
 ```{r include=FALSE}
-library(gh)
 library(glue)
-library(cli)
-exclude <- c(
-  # Self
-  "getwilds.github.io",
-  # WILDS infrastructure
-  ".github", "guide", "badges", "makefiles", "trailhead",
-  # Other
-  "scp-drawio"
-)
+library(jsonlite)
+library(dplyr)
 ```
 
-```{r echo=FALSE, results="asis"}
-#cat("NOTE: filtering out forks for now...\n\n")
-my_repos <- gh("GET /orgs/{username}/repos", username = "getwilds")
-my_repos <- Filter(function(x) !x$fork, my_repos)
-my_repos <- Filter(function(x) !x$name %in% exclude, my_repos)
-# vapply(my_repos, "[[", "", "name")
-for (i in my_repos) {
-  cat("{{< fa box-open >}}  ")
-  cat(glue("<a href={i$html_url} target='_blank'>{ i$name}</a> {ifelse(is.null(i$description), '', paste0('- ' , glue::trim(i$description)))}"), sep = "\n")
-  cat('\n')
+```{r fxns, include=FALSE}
+make_lis <- function(tbl) {
+  for (i in apply(tbl, 1, as.list)) {
+    cat("{{< fa box-open >}}  ")
+    cat(glue("<a href={i$html_url} target='_blank'>{ i$name}</a> {ifelse(is.null(i$description), '', paste0('- ' , glue::trim(i$description)))}"), sep = "\n")
+    cat('\n')
+  }
 }
+filter_topic <- function(.data, topic) {
+  filter(.data, grepl(topic, topics))
+}
+```
+
+```{r pkgs-by-topic, include=FALSE}
+registry_url <- 'https://getwilds.org/registry/registry.json'
+repos <- as_tibble(fromJSON(registry_url)$repos) %>%
+  filter(!private) %>%
+  filter(!fork)
+
+wilds_r <- repos %>% filter_topic("wilds-r")
+wilds_py <- repos %>% filter_topic("wilds-py")
+wilds_docker <- repos %>% filter_topic("wilds-docker")
+wilds_comp <- repos %>% filter_topic("wilds-comp")
+wilds_wdl <- repos %>% filter_topic("wilds-wdl")
+wilds_nf <- repos %>% filter_topic("wilds-nf")
+```
+
+### R packages
+
+```{r r-pkgs, echo=FALSE, results="asis"}
+if (NROW(wilds_r) == 0) cat("Coming soon!") else make_lis(wilds_r)
+```
+
+### Python packages
+
+```{r python-pkgs, echo=FALSE, results="asis"}
+if (NROW(wilds_py) == 0) cat("Coming soon!") else make_lis(wilds_py)
+```
+
+### Docker
+
+```{r docker, echo=FALSE, results="asis"}
+if (NROW(wilds_docker) == 0) cat("Coming soon!") else make_lis(wilds_docker)
+```
+
+### Research Compendia
+
+```{r rc, echo=FALSE, results="asis"}
+if (NROW(wilds_comp) == 0) cat("Coming soon!") else make_lis(wilds_comp)
+```
+
+### WDL's
+
+```{r wdl, echo=FALSE, results="asis"}
+if (NROW(wilds_wdl) == 0) cat("Coming soon!") else make_lis(wilds_wdl)
+```
+
+### NextFlow
+
+```{r nf, echo=FALSE, results="asis"}
+if (NROW(wilds_nf) == 0) cat("Coming soon!") else make_lis(wilds_nf)
 ```

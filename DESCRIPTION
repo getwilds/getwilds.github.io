@@ -6,9 +6,9 @@ Authors@R: c(
   )
 Imports:
     bs,
-    cli,
-    gh,
+    dplyr,
     glue,
+    jsonlite,
     rmarkdown
 URL: https://github.com/getwilds/getwilds.github.io
 BugReports: https://github.com/getwilds/getwilds.github.io/issues
