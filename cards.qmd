@@ -40,7 +40,7 @@ card_docker <- card(
     "Docker Recipes"
   ),
   c_image(
-    file = "assets/docker.svg",
+    file = "assets/docker-mark-blue.png",
     href = "packages.html#docker"
   )
 )
