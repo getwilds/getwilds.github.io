@@ -54,12 +54,21 @@ To support our mission, WILDS is actively engaged in the following activities:
 - We maintain, distribute, and publish open source scientific software, mostly
 implemented in the Python and R ecosystems.
 - We maintain and distribute open source scientific workflows implemented in
-WDL or Nextflow. These workflows are designed for researchers to either use
-off-the-shelf or as templates that they can adapt into their own work.
-- 
+WDL or Nextflow. 
+- We develop [research compendia][rescomp] to demonstrate common data analyses
+and how they can best be organized and shared.
+- We package and develop Docker recipies and Dockerfiles so that researchers
+can run pipelines in consistent computing environments.
+- We create and maintain documentation about how to use and contribute to
+WILDS resources.
 - We co-sponsor and create materials for [DaSL's Community Studios][comm].
 
-<br><br>
+All of these open source resources are designed for researchers to either use
+off-the-shelf or as tools and templates that they can adapt into their own work.
+Click on any of the boxes below to explore the resources that WILDS has to 
+offer.
+
+<!-- <br><br> -->
 
 {{< include cards.qmd >}}
 
@@ -86,3 +95,4 @@ layout_column_wrap(
 [dasl]: https://hutchdatascience.org/
 [guide]: https://getwilds.org/guide/
 [comm]: https://hutchdatascience.org/communitystudios/
+[rescomp]: https://research-compendium.science/
