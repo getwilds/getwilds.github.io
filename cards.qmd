@@ -21,7 +21,7 @@ card_r <- card(
   ),
   c_image(
     file = "assets/Rlogo.svg",
-    href = "packages.html#r-packages"
+    href = "projects.html#r-packages"
   )
 )
 card_python <- card(
@@ -31,7 +31,7 @@ card_python <- card(
   ),
   c_image(
     file = "assets/Pythonlogo.svg",
-    href = "packages.html#python-packages"
+    href = "projects.html#python-packages"
   )
 )
 card_docker <- card(
@@ -41,7 +41,7 @@ card_docker <- card(
   ),
   c_image(
     file = "assets/docker-mark-blue.png",
-    href = "packages.html#docker"
+    href = "projects.html#docker"
   )
 )
 card_comp <- card(
@@ -52,7 +52,7 @@ card_comp <- card(
   c_image(
     # from research-compendium.github.io
     file = "assets/rc-logo.svg",
-    href = "packages.html#research-compendia",
+    href = "projects.html#research-compendia",
     max_width = "88%"
   )
 )
@@ -63,7 +63,7 @@ card_wdl <- card(
   ),
   c_image(
     file = "assets/WDLlogo.png",
-    href = "packages.html#wdls"
+    href = "projects.html#wdls"
   )
 )
 card_nf <- card(
@@ -73,7 +73,7 @@ card_nf <- card(
   ),
   c_image(
     file = "assets/nf-logo.png",
-    href = "packages.html#nextflow"
+    href = "projects.html#nextflow"
   )
 )
 ```
