@@ -1,8 +1,8 @@
 ---
-title: "Packages"
+title: "Projects"
 ---
 
-## WILDS Packages
+## WILDS Projects
 
 ```{r include=FALSE}
 library(glue)

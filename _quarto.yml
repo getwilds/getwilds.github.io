@@ -10,7 +10,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - packages.qmd
+      - projects.qmd
       #- learn.qmd
       - help.qmd
       - getinvolved.qmd

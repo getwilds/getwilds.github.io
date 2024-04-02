@@ -1,12 +1,23 @@
 ---
 title: "Help"
+toc: false
 ---
 
-## Report a problem/ask a question/etc
+## Report a problem with one of our projects
 
-If you have a problem with any DaSL WILDS products please open an issue in the respective GitHub repository. For example, if you have an issue or question with the [sixtyfour][] package, open an issue in the issue tracker for that package at <https://github.com/getwilds/sixtyfour/issues>.
+If you have a problem with any DaSL WILDS projects please open an issue in the 
+respective GitHub repository. For example, if you have an issue or question 
+with the [sixtyfour][six] package, open an issue in the issue tracker for that 
+package at <https://github.com/getwilds/sixtyfour/issues>.
 
+## Get help using WILDS
 
+We are always happy to chat if you contact us at `wilds@fredhutch.org`. If you
+are a Fred Hutch employee or you work for one of the organizations in the 
+[Cancer Consortium][ccon] please schedule a [Data House Call][dhc] and mention
+WILDS in the booking.
 
-[sixtyfour]: https://github.com/getwilds/sixtyfour/
+[six]: https://github.com/getwilds/sixtyfour/
+[ccon]: https://www.cancerconsortium.org/
+[dhc]: https://hutchdatascience.org/datahousecalls/
 
