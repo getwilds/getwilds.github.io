@@ -21,6 +21,13 @@
     "text": "Make a contribution\nIf you would like to make a contribution to any DaSL WILDS products please open a pull request in the respective GitHub repository. For example, if you want to make a contribution to the sixtyfour package, open a pull request in the repository for that package at https://github.com/getwilds/sixtyfour/."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to WILDS",
+    "section": "",
+    "text": "The Open-Source Software Office of the Fred Hutchinson Cancer Center\n\nOur Mission\nIn recognition of the fact that open source software is the engine of biomedical data science, the Data Science Lab (DaSL) created WILDS, the open-source software office of the Fred Hutchinson Cancer Center. The mission of WILDS includes the following:\n\nEngage with people developing open-source software across the Cancer Consortium.\nElevate the quality of open-source software being developed at Fred Hutch.\nEmpower new open-source developers by evangelizing best practices and catalyzing community around the open-source software development process.\nConnect developers, researchers, and providers to opportunities to share, academically publish, and publicize their software.\nCollaborate within the Fred Hutch community to build the next generation of open-source software tools.\n\n\n\n\n\nCode\n\n\n\nR Packages\n\n\n\n\n\n\n\n\n\n\n\n\nPython Packages\n\n\n\n\n\n\n\n\n\n\n\n\nDocker Recipes\n\n\n\n\n\n\n\n\n\n\n\n\nResearch Compendia\n\n\n\n\n\n\n\n\n\n\n\n\nWDL Workflows\n\n\n\n\n\n\n\n\n\n\n\n\nNextflow Workflows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGet involved\n Read - WILDS Contributor Guide\n Contribute - See our packages page"
+  },
+  {
     "objectID": "packages.html",
     "href": "packages.html",
     "title": "Packages",
@@ -33,13 +40,6 @@
     "title": "Packages",
     "section": "",
     "text": "rcromwell - R client for interacting with Cromwell with WDL workflows\n sixtyfour - 🚚 CEO, entrepreneur\n cancerprof - API Client for State Cancer Profiles\n proofr - Client for the PROOF API\n bs - Bootstrap Components for DASL Projects\n\n\n\nComing soon!\n\n\n\n wilds-docker-library - Central location for all Docker containers associated with WILDS workflows\n\n\n\nComing soon!\n\n\n\n ww-sra-star - Workflow to download paired fastqs from SRA and pass through STAR 2 pass\n ww-cell-ranger - A basic starting point for a cell ranger workflow\n ww-star-deseq2 - A demo repo to help folks run Star on RNA seq data and do DEseq2\n ww-fastq-to-cram - Self-contained WDL workflow that converts a WGS FASTQ file into an unmapped CRAM file\n\n\n\nComing soon!"
-  },
-  {
-    "objectID": "learn.html",
-    "href": "learn.html",
-    "title": "Learn",
-    "section": "",
-    "text": "something about the training we offer?\npoint to package docs?\npoint to package sciwiki pages?\npoint to external resources?"
   },
   {
     "objectID": "help.html",
@@ -56,10 +56,10 @@
     "text": "If you have a problem with any DaSL WILDS products please open an issue in the respective GitHub repository. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that package at https://github.com/getwilds/sixtyfour/issues."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to WILDS",
+    "objectID": "learn.html",
+    "href": "learn.html",
+    "title": "Learn",
     "section": "",
-    "text": "The Open Source Software Office of the Fred Hutchinson Cancer Center\n\nOur Missions\nIn regocnition of ther fact that open source software is the engine of biomedical data science, the Data Science Lab (DaSL) created WILDS, the open source software office of the Fred Hutch Cancer Center. The mission of WILDS includes the following:\n\nEngage with people developing open-source software across the Cancer Consortium.\nElevate the quality of open-source software being developed at Fred Hutch.\nEmpower new open-source developers by evangelizing best practices and catalyzing community around the open-source software development process.\nConnect developers, researchers, and providers to opportunities to share, academically publish, and publicize their software.\nCollaborate within the Fred Hutch community to build the next generation of open source software tools.\n\n\n\n\n\nCode\n\n\n\nR Packages\n\n\n\n\n\n\n\n\n\n\n\n\nPython Packages\n\n\n\n\n\n\n\n\n\n\n\n\nDocker Recipes\n\n\n\n\n\n\n\n\n\n\n\n\nResearch Compendia\n\n\n\n\n\n\n\n\n\n\n\n\nWDL Workflows\n\n\n\n\n\n\n\n\n\n\n\n\nNextflow Workflows\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGet involved\n Read - WILDS Contributor Guide\n Contribute - See our packages page"
+    "text": "something about the training we offer?\npoint to package docs?\npoint to package sciwiki pages?\npoint to external resources?"
   }
 ]
