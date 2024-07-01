@@ -1,9 +1,9 @@
 ---
-#title: "Welcome to WILDS"
+title: "Welcome to WILDS"
 toc: false
 ---
 
-```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
 library(bs)
 library(bslib)
 library(htmltools)
@@ -20,15 +20,13 @@ anim_width <- function(x, width1, width2) {
 }
 ```
 
-```{r fix-me-hack-to-include-fontawesome-css, echo=FALSE}
+```{r fix-me-hack-to-include-fontawesome-css, include=FALSE}
 cat("{{< fa box-open >}}  ")
 ```
 
-# Welcome to WILDS
+## The Open Source Software Office at Fred Hutch
 
-# The Open Source Software Office of the Fred Hutch Cancer Center
-
-# Our Mission {.center1}
+### Our Mission
 
 Open source software has allowed the biomedical data science community to 
 flourish, and therefore to encourage open science practices and to cultivate
@@ -49,7 +47,7 @@ academically publish, and publicize their software.
 - Collaborate within the Fred Hutch community to build the next generation of
 open source software tools.
 
-# Our Contribution {.center1}
+### Our Contribution
 
 To support our mission, WILDS is actively engaged in the following activities:
 
@@ -74,7 +72,7 @@ offer.
 
 {{< include cards.qmd >}}
 
-# Code {.center1}
+### Code
 
 ```{r code, echo=FALSE, results="asis"}
 layout_column_wrap(
@@ -86,7 +84,7 @@ layout_column_wrap(
 
 <br>
 
-# Get Involved {.center1}
+# Get Involved
 
 {{< fa circle-info >}} **Read** - [WILDS Contributor Guide][guide]
 

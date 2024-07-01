@@ -1,5 +1,6 @@
 ---
 title: "Help"
+toc: false
 ---
 
 ## Report a problem/ask a question/etc
