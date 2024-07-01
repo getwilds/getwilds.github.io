@@ -1,4 +1,4 @@
-```{r echo=FALSE, results="asis", message=FALSE}
+```{r echo=FALSE, results="asis", message=FALSE, warning=FALSE}
 library(bslib)
 library(htmltools)
 library(glue)
