@@ -45,7 +45,7 @@ catalyzing community around the open-source software development process.
 - Connect developers, researchers, and providers to opportunities to share,
 academically publish, and publicize their software.
 - Collaborate within the Fred Hutch community to build the next generation of
-open source software tools.
+open-source software tools.
 
 ### Our Contribution
 
