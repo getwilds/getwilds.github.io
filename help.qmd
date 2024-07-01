@@ -1,12 +1,17 @@
 ---
 title: "Help"
+toc: false
 ---
 
-## Report a problem/ask a question/etc
+## Need to report a problem? Have a question you would like to ask?
 
-If you have a problem with any DaSL WILDS products please open an issue in the respective GitHub repository. For example, if you have an issue or question with the [sixtyfour][] package, open an issue in the issue tracker for that package at <https://github.com/getwilds/sixtyfour/issues>.
-
-
+If you would like to ask a question about any WILDS projects, do not hesitate to
+email us at `wilds@fredhutch.org`. If you are a developer or you are familiar
+with GitHub, you can also open an issue on the GitHub repository that 
+corresponds to the project you are interested in: <https://github.com/getwilds/>.
+For example, if you have an issue or question with the [sixtyfour][] package, 
+open an issue in the issue tracker for that project at 
+<https://github.com/getwilds/sixtyfour/issues>.
 
 [sixtyfour]: https://github.com/getwilds/sixtyfour/
 
