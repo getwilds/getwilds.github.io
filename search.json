@@ -1,24 +1,17 @@
 [
   {
-    "objectID": "getinvolved.html",
-    "href": "getinvolved.html",
-    "title": "Get Involved",
+    "objectID": "help.html",
+    "href": "help.html",
+    "title": "Help",
     "section": "",
-    "text": "The WILDS Contributor Guide is the home for resources and best practices for WDL and Nextflow workflows, research compendia, Docker files and software.\nIn addition, the guide outlines the best practices that we strive to follow while developing WILDS."
+    "text": "If you would like to ask a question about any WILDS projects, do not hesitate to email us at wilds@fredhutch.org. If you are a developer or you are familiar with GitHub, you can also open an issue on the GitHub repository that corresponds to the project you are interested in: https://github.com/getwilds/. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that project at https://github.com/getwilds/sixtyfour/issues."
   },
   {
-    "objectID": "getinvolved.html#dasl-guide",
-    "href": "getinvolved.html#dasl-guide",
-    "title": "Get Involved",
+    "objectID": "help.html#need-to-report-a-problem-have-a-question-you-would-like-to-ask",
+    "href": "help.html#need-to-report-a-problem-have-a-question-you-would-like-to-ask",
+    "title": "Help",
     "section": "",
-    "text": "The WILDS Contributor Guide is the home for resources and best practices for WDL and Nextflow workflows, research compendia, Docker files and software.\nIn addition, the guide outlines the best practices that we strive to follow while developing WILDS."
-  },
-  {
-    "objectID": "getinvolved.html#make-a-contribution",
-    "href": "getinvolved.html#make-a-contribution",
-    "title": "Get Involved",
-    "section": "Make a contribution",
-    "text": "Make a contribution\nIf you would like to make a contribution to any DaSL WILDS products please open a pull request in the respective GitHub repository. For example, if you want to make a contribution to the sixtyfour package, open a pull request in the repository for that package at https://github.com/getwilds/sixtyfour/."
+    "text": "If you would like to ask a question about any WILDS projects, do not hesitate to email us at wilds@fredhutch.org. If you are a developer or you are familiar with GitHub, you can also open an issue on the GitHub repository that corresponds to the project you are interested in: https://github.com/getwilds/. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that project at https://github.com/getwilds/sixtyfour/issues."
   },
   {
     "objectID": "index.html",
@@ -42,24 +35,31 @@
     "text": "rcromwell - R client for interacting with Cromwell with WDL workflows\n sixtyfour - 🚚 CEO, entrepreneur\n cancerprof - API Client for State Cancer Profiles\n proofr - Client for the PROOF API\n bs - Bootstrap Components for DASL Projects\n\n\n\nComing soon!\n\n\n\n wilds-docker-library - Central location for all Docker containers associated with WILDS workflows\n\n\n\nComing soon!\n\n\n\n ww-sra-star - Workflow to download paired fastqs from SRA and pass through STAR 2 pass\n ww-cell-ranger - A basic starting point for a cell ranger workflow\n ww-star-deseq2 - A demo repo to help folks run Star on RNA seq data and do DEseq2\n ww-fastq-to-cram - Self-contained WDL workflow that converts a WGS FASTQ file into an unmapped CRAM file\n\n\n\nComing soon!"
   },
   {
-    "objectID": "help.html",
-    "href": "help.html",
-    "title": "Help",
-    "section": "",
-    "text": "If you have a problem with any DaSL WILDS products please open an issue in the respective GitHub repository. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that package at https://github.com/getwilds/sixtyfour/issues."
-  },
-  {
-    "objectID": "help.html#report-a-problemask-a-questionetc",
-    "href": "help.html#report-a-problemask-a-questionetc",
-    "title": "Help",
-    "section": "",
-    "text": "If you have a problem with any DaSL WILDS products please open an issue in the respective GitHub repository. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that package at https://github.com/getwilds/sixtyfour/issues."
-  },
-  {
     "objectID": "learn.html",
     "href": "learn.html",
     "title": "Learn",
     "section": "",
     "text": "something about the training we offer?\npoint to package docs?\npoint to package sciwiki pages?\npoint to external resources?"
+  },
+  {
+    "objectID": "getinvolved.html",
+    "href": "getinvolved.html",
+    "title": "Get Involved",
+    "section": "",
+    "text": "The WILDS Contributor Guide is the home for resources and best practices for WDL and Nextflow workflows, research compendia, Docker files and software.\nIn addition, the guide outlines the best practices that we strive to follow while developing WILDS."
+  },
+  {
+    "objectID": "getinvolved.html#dasl-guide",
+    "href": "getinvolved.html#dasl-guide",
+    "title": "Get Involved",
+    "section": "",
+    "text": "The WILDS Contributor Guide is the home for resources and best practices for WDL and Nextflow workflows, research compendia, Docker files and software.\nIn addition, the guide outlines the best practices that we strive to follow while developing WILDS."
+  },
+  {
+    "objectID": "getinvolved.html#make-a-contribution",
+    "href": "getinvolved.html#make-a-contribution",
+    "title": "Get Involved",
+    "section": "Make a contribution",
+    "text": "Make a contribution\nIf you would like to make a contribution to any DaSL WILDS products please open a pull request in the respective GitHub repository. For example, if you want to make a contribution to the sixtyfour package, open a pull request in the repository for that package at https://github.com/getwilds/sixtyfour/."
   }
 ]
