@@ -3,7 +3,7 @@ title: "Welcome to WILDS"
 toc: false
 ---
 
-```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
 library(bs)
 library(bslib)
 library(htmltools)
@@ -20,21 +20,27 @@ anim_width <- function(x, width1, width2) {
 }
 ```
 
-```{r fix-me-hack-to-include-fontawesome-css, echo=FALSE}
+```{r fix-me-hack-to-include-fontawesome-css, include=FALSE}
 cat("{{< fa box-open >}}  ")
 ```
 
-### The Open-Source Software Office of the Fred Hutchinson Cancer Center
+## The Open Source Software Office at Fred Hutch
 
-#### Our Mission
+### Our Mission
 
-In recognition of the fact that open source software is the engine of
-biomedical data science, the Data Science Lab (DaSL) created WILDS, the 
-open-source software office of the Fred Hutchinson Cancer Center. The 
-mission of WILDS includes the following:
+Open source software has allowed the biomedical data science community to 
+flourish. Therefore to encourage open science practices and to cultivate
+the development of open source software at Fred Hutch, the Data Science Lab 
+(DaSL) created WILDS, the open source software office of the Fred Hutch Cancer 
+Center. WILDS stands for **W**orkflows **I**ntegrating **L**arge **D**ata and 
+**S**oftware, which highlights our focus on people in their day-to-day 
+scientific work. The mission of WILDS includes the following:
 
-- Engage with people developing open-source software across the Cancer
-Consortium.
+- Engage with the Cancer Consortium community about how they can adopt open
+science practices into their own workflows.
+- Educate our community about the critical role that open source software plays
+in biomedical data science practice.
+- Support open source software developers across the Cancer Consortium.
 - Elevate the quality of open-source software being developed at Fred Hutch.
 - Empower new open-source developers by evangelizing best practices and
 catalyzing community around the open-source software development process.
@@ -43,11 +49,32 @@ academically publish, and publicize their software.
 - Collaborate within the Fred Hutch community to build the next generation of
 open-source software tools.
 
-<br><br>
+### Our Contribution
+
+To support our mission, WILDS is actively engaged in the following activities:
+
+- We maintain, distribute, and publish open source scientific software, mostly
+implemented in the Python and R ecosystems.
+- We maintain and distribute open source scientific workflows implemented in
+WDL or Nextflow. 
+- We develop [research compendia][rescomp] to demonstrate common data analyses
+and how they can best be organized and shared.
+- We package and develop Docker recipes and Dockerfiles so that researchers
+can run pipelines in consistent computing environments.
+- We create and maintain documentation about how to use and contribute to
+WILDS resources.
+- We co-sponsor and create materials for [DaSL's Community Studios][comm].
+
+All of these open source resources are designed for researchers to either use
+off-the-shelf or as tools and templates that they can adapt into their own work.
+Click on any of the boxes below to explore the resources that WILDS has to 
+offer.
+
+<!-- <br><br> -->
 
 {{< include cards.qmd >}}
 
-# Code {.center1}
+### Code
 
 ```{r code, echo=FALSE, results="asis"}
 layout_column_wrap(
@@ -59,7 +86,7 @@ layout_column_wrap(
 
 <br>
 
-# Get involved {.center1}
+# Get Involved
 
 {{< fa circle-info >}} **Read** - [WILDS Contributor Guide][guide]
 
@@ -69,3 +96,5 @@ layout_column_wrap(
 
 [dasl]: https://hutchdatascience.org/
 [guide]: https://getwilds.org/guide/
+[comm]: https://hutchdatascience.org/communitystudios/
+[rescomp]: https://research-compendium.science/

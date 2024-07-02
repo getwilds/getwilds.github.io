@@ -1,5 +1,6 @@
 ---
 title: "Get Involved"
+toc: false
 ---
 
 ## DASL Guide
