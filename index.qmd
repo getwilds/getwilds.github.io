@@ -29,7 +29,7 @@ cat("{{< fa box-open >}}  ")
 ### Our Mission
 
 Open source software has allowed the biomedical data science community to 
-flourish, therefore to encourage open science practices and to cultivate
+flourish. Therefore to encourage open science practices and to cultivate
 the development of open source software at Fred Hutch, the Data Science Lab 
 (DaSL) created WILDS, the open source software office of the Fred Hutch Cancer 
 Center. WILDS stands for **W**orkflows **I**ntegrating **L**arge **D**ata and 
@@ -40,7 +40,7 @@ scientific work. The mission of WILDS includes the following:
 science practices into their own workflows.
 - Educate our community about the critical role that open source software plays
 in biomedical data science practice.
-- Support open-source software developers across the Cancer Consortium.
+- Support open source software developers across the Cancer Consortium.
 - Elevate the quality of open-source software being developed at Fred Hutch.
 - Empower new open-source developers by evangelizing best practices and
 catalyzing community around the open-source software development process.
@@ -59,7 +59,7 @@ implemented in the Python and R ecosystems.
 WDL or Nextflow. 
 - We develop [research compendia][rescomp] to demonstrate common data analyses
 and how they can best be organized and shared.
-- We package and develop Docker recipies and Dockerfiles so that researchers
+- We package and develop Docker recipes and Dockerfiles so that researchers
 can run pipelines in consistent computing environments.
 - We create and maintain documentation about how to use and contribute to
 WILDS resources.
