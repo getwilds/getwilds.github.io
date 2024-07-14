@@ -1,8 +1,6 @@
 ---
-title: "Packages"
+title: "Projects"
 ---
-
-## WILDS Packages
 
 ```{r include=FALSE}
 library(glue)
@@ -37,19 +35,19 @@ wilds_wdl <- repos %>% filter_topic("wilds-wdl")
 wilds_nf <- repos %>% filter_topic("wilds-nf")
 ```
 
-### R packages
+### R Packages
 
 ```{r r-pkgs, echo=FALSE, results="asis"}
 if (NROW(wilds_r) == 0) cat("Coming soon!") else make_lis(wilds_r)
 ```
 
-### Python packages
+### Python Packages
 
 ```{r python-pkgs, echo=FALSE, results="asis"}
 if (NROW(wilds_py) == 0) cat("Coming soon!") else make_lis(wilds_py)
 ```
 
-### Docker
+### Docker Recipies
 
 ```{r docker, echo=FALSE, results="asis"}
 if (NROW(wilds_docker) == 0) cat("Coming soon!") else make_lis(wilds_docker)
@@ -61,7 +59,7 @@ if (NROW(wilds_docker) == 0) cat("Coming soon!") else make_lis(wilds_docker)
 if (NROW(wilds_comp) == 0) cat("Coming soon!") else make_lis(wilds_comp)
 ```
 
-### WDL's
+### WDLs
 
 ```{r wdl, echo=FALSE, results="asis"}
 if (NROW(wilds_wdl) == 0) cat("Coming soon!") else make_lis(wilds_wdl)
