@@ -5,15 +5,25 @@ toc: false
 
 ## DASL Guide
 
-The [WILDS Contributor Guide][guide] is the home for resources and best practices for WDL and Nextflow workflows, research compendia, Docker files and software.
+We maintain the [WILDS Contributor Guide][guide] as a collection of guidelines,
+review criteria, and best practices for developing production-ready WDL and 
+Nextflow workflows, research compendia, Docker files and software.
 
-In addition, the guide outlines the best practices that we strive to follow while developing WILDS.
+Our goal in developing the WILDS Contributor Guide is not just limitted to the
+care and keeping of WILDS, we hope it can serve as a model for research or
+software development groups in terms of how they think about code and software
+quality.
 
 
 ## Make a contribution
 
-If you would like to make a contribution to any DaSL WILDS products please open a pull request in the respective GitHub repository. For example, if you want to make a contribution to the [sixtyfour][] package, open a pull request in the repository for that package at <https://github.com/getwilds/sixtyfour/>.
+If you would like to make a contribution to any DaSL WILDS projects please open 
+a pull request in the appropriate GitHub repository. For example, if you want to 
+make a contribution to the [sixtyfour][] package, open a pull request in 
+the repository for that package at <https://github.com/getwilds/sixtyfour/>.
 
+If you are interested in making another kind of contribution, we would be happy
+to chat. Please contact us at `wilds@fredhutch.org`.
 
 [guide]: https://getwilds.org/guide/
-[sixtyfour]: https://github.com/getwilds/sixtyfour/
+[six]: https://github.com/getwilds/sixtyfour/
