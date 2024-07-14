@@ -3,7 +3,7 @@ title: "Help"
 toc: false
 ---
 
-## Need to report a problem? Have a question you would like to ask?
+## We would be happy to help you with WILDS
 
 If you would like to ask a question about any WILDS projects, do not hesitate to
 email us at `wilds@fredhutch.org`. If you are a developer or you are familiar
@@ -13,5 +13,10 @@ For example, if you have an issue or question with the [sixtyfour][] package,
 open an issue in the issue tracker for that project at 
 <https://github.com/getwilds/sixtyfour/issues>.
 
-[sixtyfour]: https://github.com/getwilds/sixtyfour/
+If you are a Fred Hutch employee or you work for one of the organizations in the 
+[Cancer Consortium][ccon] please schedule a [Data House Call][dhc] and mention
+WILDS in the booking.
 
+[sixtyfour]: https://github.com/getwilds/sixtyfour/
+[ccon]: https://www.cancerconsortium.org/
+[dhc]: https://hutchdatascience.org/datahousecalls/
