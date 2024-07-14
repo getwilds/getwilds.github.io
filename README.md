@@ -13,4 +13,3 @@ Both make targets above make sure that necessary R dependencies are installed be
 Note that [quarto cli tool][quarto] is required.
 
 [quarto]: https://quarto.org/docs/get-started/
-
