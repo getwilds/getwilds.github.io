@@ -29,7 +29,7 @@ documentation, additional software tests, translation and localization, blogs,
 or tutorials are all welcome.
 
 If you are interested in making another kind of contribution, we would be happy
-to chat. Please contact us at `wilds@fredhutch.org`.
+to chat. Please contact us at [`wilds@fredhutch.org`](mailto:wilds@fredhutch.org).
 
 [guide]: https://getwilds.org/guide/
 [sixtyfour]: https://github.com/getwilds/sixtyfour/
