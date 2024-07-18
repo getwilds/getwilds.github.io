@@ -10,13 +10,15 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - packages.qmd
+      - projects.qmd
       #- learn.qmd
       - help.qmd
       - getinvolved.qmd
     right:
       - href: "https://hutchdatascience.org/"
         text: DaSL
+      - href: "https://github.com/getwilds/"
+        text: "{{< fa brands github >}}"
 
 format:
   html:

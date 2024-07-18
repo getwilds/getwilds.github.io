@@ -90,7 +90,7 @@ layout_column_wrap(
 
 {{< fa circle-info >}} **Read** - [WILDS Contributor Guide][guide]
 
-{{< fa hammer >}} **Contribute** - See our [packages page](packages.html)
+{{< fa hammer >}} **Contribute** - See our [projects page](projects.html)
 
 
 
