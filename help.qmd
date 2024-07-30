@@ -3,15 +3,29 @@ title: "Help"
 toc: false
 ---
 
-## Need to report a problem? Have a question you would like to ask?
+## We would be happy to help you with WILDS
 
-If you would like to ask a question about any WILDS projects, do not hesitate to
-email us at `wilds@fredhutch.org`. If you are a developer or you are familiar
-with GitHub, you can also open an issue on the GitHub repository that 
+Depending on what kind of help you need, there are different resources you can
+consult:
+
+- If you would like to **ask a question about any WILDS projects**, do not hesitate to
+email us at `wilds@fredhutch.org`.
+- If you are a developer or **you are familiar
+with GitHub**, you can also open an issue on the GitHub repository that 
 corresponds to the project you are interested in: <https://github.com/getwilds/>.
 For example, if you have an issue or question with the [sixtyfour][] package, 
 open an issue in the issue tracker for that project at 
-<https://github.com/getwilds/sixtyfour/issues>.
+<https://github.com/getwilds/sixtyfour/issues>. 
+- If you are **a member of our [Slack organization][slack]**, you are welcome to ask
+a question in our `#general` channel. If you are a Fred Hutch employee or you 
+work for one of the organizations in the [Cancer Consortium][ccon] and you would
+like to join our Slack, please email us.
+- Similarly, if you are **a Fred Hutch employee or you work for one of the 
+organizations in the [Cancer Consortium][ccon]** and you would like to have a
+face-to-face conversation please schedule a [Data House Call][dhc] and mention
+WILDS in the booking.
 
 [sixtyfour]: https://github.com/getwilds/sixtyfour/
-
+[ccon]: https://www.cancerconsortium.org/
+[dhc]: https://hutchdatascience.org/datahousecalls/
+[slack]: https://fhdata.slack.com/
