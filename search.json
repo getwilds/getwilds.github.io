@@ -18,14 +18,14 @@
     "href": "help.html",
     "title": "Help",
     "section": "",
-    "text": "If you would like to ask a question about any WILDS projects, do not hesitate to email us at wilds@fredhutch.org. If you are a developer or you are familiar with GitHub, you can also open an issue on the GitHub repository that corresponds to the project you are interested in: https://github.com/getwilds/. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that project at https://github.com/getwilds/sixtyfour/issues."
+    "text": "Depending on what kind of help you need, there are different resources you can consult:\n\nIf you would like to ask a question about any WILDS projects, do not hesitate to email us at wilds@fredhutch.org.\nIf you are a developer or you are familiar with GitHub, you can also open an issue on the GitHub repository that corresponds to the project you are interested in: https://github.com/getwilds/. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that project at https://github.com/getwilds/sixtyfour/issues.\nIf you are a member of our Slack organization, you are welcome to ask a question in our #general channel. If you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to join our Slack, please email us.\nSimilarly, if you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to have a face-to-face conversation please schedule a Data House Call and mention WILDS in the booking."
   },
   {
-    "objectID": "help.html#need-to-report-a-problem-have-a-question-you-would-like-to-ask",
-    "href": "help.html#need-to-report-a-problem-have-a-question-you-would-like-to-ask",
+    "objectID": "help.html#we-would-be-happy-to-help-you-with-wilds",
+    "href": "help.html#we-would-be-happy-to-help-you-with-wilds",
     "title": "Help",
     "section": "",
-    "text": "If you would like to ask a question about any WILDS projects, do not hesitate to email us at wilds@fredhutch.org. If you are a developer or you are familiar with GitHub, you can also open an issue on the GitHub repository that corresponds to the project you are interested in: https://github.com/getwilds/. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that project at https://github.com/getwilds/sixtyfour/issues."
+    "text": "Depending on what kind of help you need, there are different resources you can consult:\n\nIf you would like to ask a question about any WILDS projects, do not hesitate to email us at wilds@fredhutch.org.\nIf you are a developer or you are familiar with GitHub, you can also open an issue on the GitHub repository that corresponds to the project you are interested in: https://github.com/getwilds/. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that project at https://github.com/getwilds/sixtyfour/issues.\nIf you are a member of our Slack organization, you are welcome to ask a question in our #general channel. If you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to join our Slack, please email us.\nSimilarly, if you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to have a face-to-face conversation please schedule a Data House Call and mention WILDS in the booking."
   },
   {
     "objectID": "projects.html",
