@@ -47,7 +47,7 @@ if (NROW(wilds_r) == 0) cat("Coming soon!") else make_lis(wilds_r)
 if (NROW(wilds_py) == 0) cat("Coming soon!") else make_lis(wilds_py)
 ```
 
-### Docker Recipies
+### Docker Recipes
 
 ```{r docker, echo=FALSE, results="asis"}
 if (NROW(wilds_docker) == 0) cat("Coming soon!") else make_lis(wilds_docker)
