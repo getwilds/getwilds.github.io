@@ -6,6 +6,9 @@ title: "Projects"
 library(glue)
 library(jsonlite)
 library(dplyr)
+library(bslib)
+library(bsicons)
+library(htmltools)
 ```
 
 ```{r fxns, include=FALSE}
@@ -13,16 +16,45 @@ make_lis <- function(tbl) {
   for (i in apply(tbl, 1, as.list)) {
     cat("{{< fa box-open >}}  ")
     cat(glue("<a href={i$html_url} target='_blank'>{ i$name}</a> {ifelse(is.null(i$description), '', paste0('- ' , glue::trim(i$description)))}"), sep = "\n")
-    cat('\n')
+    cat("\n")
   }
 }
 filter_topic <- function(.data, topic) {
   filter(.data, grepl(topic, topics))
 }
+
+make_badge <- function(df) {
+  badge <- df$badges[which(grepl("getwilds.github.io|getwilds.org", df$badges$src)), ]
+  a(img(src = badge$src, alt = badge$alt), href = badge$href, target = "_blank")
+}
+
+make_card <- function(row) {
+  card(
+    class = "rounded-3",
+    card_header(
+      bsicons::bs_icon("box"),
+      strong(row$name)
+    ),
+    card_body(
+      fillable = FALSE,
+      row$description
+    ),
+    card_body(
+      fillable = FALSE,
+      class = "bg-light d-inline-flex justify-content-between align-items-center",
+      a(bsicons::bs_icon("github"), href = row$html_url, target = "_blank"),
+      make_badge(row)
+    )
+  )
+}
+
+make_cards <- function(tbl) {
+  layout_column_wrap(!!!apply(tbl, 1, make_card), width = 1 / 2)
+}
 ```
 
 ```{r pkgs-by-topic, include=FALSE}
-registry_url <- 'https://getwilds.org/registry/registry.json'
+registry_url <- "https://getwilds.org/registry/registry.json"
 repos <- as_tibble(fromJSON(registry_url)$repos) %>%
   filter(!private) %>%
   filter(!fork)
@@ -38,35 +70,35 @@ wilds_nf <- repos %>% filter_topic("wilds-nf")
 ### R Packages
 
 ```{r r-pkgs, echo=FALSE, results="asis"}
-if (NROW(wilds_r) == 0) cat("Coming soon!") else make_lis(wilds_r)
+if (NROW(wilds_r) == 0) cat("Coming soon!") else make_cards(wilds_r)
 ```
 
 ### Python Packages
 
 ```{r python-pkgs, echo=FALSE, results="asis"}
-if (NROW(wilds_py) == 0) cat("Coming soon!") else make_lis(wilds_py)
+if (NROW(wilds_py) == 0) cat("Coming soon!") else make_cards(wilds_py)
 ```
 
 ### Docker Recipes
 
 ```{r docker, echo=FALSE, results="asis"}
-if (NROW(wilds_docker) == 0) cat("Coming soon!") else make_lis(wilds_docker)
+if (NROW(wilds_docker) == 0) cat("Coming soon!") else make_cards(wilds_docker)
 ```
 
 ### Research Compendia
 
 ```{r rc, echo=FALSE, results="asis"}
-if (NROW(wilds_comp) == 0) cat("Coming soon!") else make_lis(wilds_comp)
+if (NROW(wilds_comp) == 0) cat("Coming soon!") else make_cards(wilds_comp)
 ```
 
 ### WDLs
 
 ```{r wdl, echo=FALSE, results="asis"}
-if (NROW(wilds_wdl) == 0) cat("Coming soon!") else make_lis(wilds_wdl)
+if (NROW(wilds_wdl) == 0) cat("Coming soon!") else make_cards(wilds_wdl)
 ```
 
 ### NextFlow
 
 ```{r nf, echo=FALSE, results="asis"}
-if (NROW(wilds_nf) == 0) cat("Coming soon!") else make_lis(wilds_nf)
+if (NROW(wilds_nf) == 0) cat("Coming soon!") else make_cards(wilds_nf)
 ```

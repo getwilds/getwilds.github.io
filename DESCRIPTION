@@ -9,7 +9,10 @@ Imports:
     dplyr,
     glue,
     jsonlite,
-    rmarkdown
+    rmarkdown,
+    bslib,
+    bsicons,
+    htmltools
 URL: https://github.com/getwilds/getwilds.github.io
 BugReports: https://github.com/getwilds/getwilds.github.io/issues
 License: CC0
