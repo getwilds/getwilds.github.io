@@ -26,3 +26,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+
+website:
+  google-analytics: "G-PL1XVGX8T2"
+  storage: none
