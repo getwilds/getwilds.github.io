@@ -41,7 +41,7 @@ card_docker <- card(
   ),
   c_image(
     file = "assets/docker-mark-blue.png",
-    href = "projects.html#docker"
+    href = "projects.html#docker-recipes"
   )
 )
 card_comp <- card(
