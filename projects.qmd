@@ -9,6 +9,7 @@ library(dplyr)
 library(bslib)
 library(bsicons)
 library(htmltools)
+library(stringr)
 ```
 
 ```{r fxns, include=FALSE}
@@ -23,9 +24,14 @@ filter_topic <- function(.data, topic) {
   filter(.data, grepl(topic, topics))
 }
 
+as_badge <- function(x) {
+  a(img(src = x$src, alt = x$alt), href = x$href, target = "_blank")
+}
+
 make_badge <- function(df) {
   badge <- df$badges[which(grepl("getwilds.github.io|getwilds.org", df$badges$src)), ]
-  a(img(src = badge$src, alt = badge$alt), href = badge$href, target = "_blank")
+  as_badge(badge)
+  # a(img(src = badge$src, alt = badge$alt), href = badge$href, target = "_blank")
 }
 
 make_card <- function(row) {
@@ -101,4 +107,38 @@ if (NROW(wilds_wdl) == 0) cat("Coming soon!") else make_cards(wilds_wdl)
 
 ```{r nf, echo=FALSE, results="asis"}
 if (NROW(wilds_nf) == 0) cat("Coming soon!") else make_cards(wilds_nf)
+```
+
+### Repos status tally
+
+```{r repo-status, echo=FALSE, results="asis"}
+make_badge_body <- function(x) {
+  card_body(
+    fillable = FALSE,
+    class = "bg-light d-inline-flex",
+    as_badge(x),
+    span(HTML("&nbsp;"), bsicons::bs_icon("arrow-right-square"), HTML("&nbsp;"), x$n)
+  )
+}
+target_topics <- c("wilds-r","wilds-py","wilds-docker","wilds-comp","wilds-wdl","wilds-nf")
+the_repos <- repos %>% filter_topic(paste(target_topics, collapse = "|"))
+repos_calc <- bind_rows(lapply(the_repos$badges, function(df) {
+  df[which(grepl("getwilds.github.io|getwilds.org", df$src)), ]
+})) %>%
+  mutate(
+    status = str_extract(href, "(?<=#).*"),
+    href = str_replace_all(href, "getwilds.github.io", "getwilds.org"),
+    src = str_replace_all(src, "getwilds.github.io", "getwilds.org")
+  ) %>%
+  group_by(status) %>%
+  mutate(n = n()) %>%
+  distinct() %>%
+  ungroup()
+card(
+  #!!!apply(repos_calc, 1, function(w) make_badge_body(as.data.frame(w))),
+  class = "rounded-3",
+  make_badge_body(repos_calc[1,]),
+  make_badge_body(repos_calc[2,]),
+  make_badge_body(repos_calc[3,])
+)
 ```
