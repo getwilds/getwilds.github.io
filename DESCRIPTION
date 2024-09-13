@@ -12,7 +12,8 @@ Imports:
     rmarkdown,
     bslib,
     bsicons,
-    htmltools
+    htmltools,
+    stringr
 URL: https://github.com/getwilds/getwilds.github.io
 BugReports: https://github.com/getwilds/getwilds.github.io/issues
 License: CC0
