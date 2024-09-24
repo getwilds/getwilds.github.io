@@ -3,8 +3,6 @@ project:
 
 website:
   title: "WILDS"
-  google-analytics:
-    tracking-id: "G-PL1XVGX8T2"
   navbar:
     logo: favicon.ico
     pinned: true
@@ -28,3 +26,5 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    include-in-header:
+      - file: analytics.html
