@@ -5,7 +5,6 @@ website:
   title: "WILDS"
   google-analytics:
     tracking-id: "G-PL1XVGX8T2"
-    storage: none
   navbar:
     logo: favicon.ico
     pinned: true
