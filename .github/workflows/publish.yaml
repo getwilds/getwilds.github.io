@@ -2,6 +2,8 @@ on:
   workflow_dispatch:
   push:
     branches: main
+  repository_dispatch:
+    types: [registry-updated]
 
 name: GH Pages
 
