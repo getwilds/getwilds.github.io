@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://getwilds.org/getinvolved.html</loc>
-    <lastmod>2025-05-06T23:35:32.921Z</lastmod>
+    <loc>https://getwilds.org/index.html</loc>
+    <lastmod>2025-05-07T23:36:26.030Z</lastmod>
   </url>
   <url>
     <loc>https://getwilds.org/projects.html</loc>
-    <lastmod>2025-05-06T23:35:32.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://getwilds.org/learn.html</loc>
-    <lastmod>2025-05-06T23:35:32.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://getwilds.org/LICENSE.html</loc>
-    <lastmod>2025-05-06T23:35:32.913Z</lastmod>
-  </url>
-  <url>
-    <loc>https://getwilds.org/help.html</loc>
-    <lastmod>2025-05-06T23:35:32.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://getwilds.org/index.html</loc>
-    <lastmod>2025-05-06T23:35:32.921Z</lastmod>
+    <lastmod>2025-05-07T23:36:26.031Z</lastmod>
   </url>
   <url>
     <loc>https://getwilds.org/cards.html</loc>
-    <lastmod>2025-05-06T23:35:32.921Z</lastmod>
+    <lastmod>2025-05-07T23:36:26.030Z</lastmod>
+  </url>
+  <url>
+    <loc>https://getwilds.org/learn.html</loc>
+    <lastmod>2025-05-07T23:36:26.030Z</lastmod>
+  </url>
+  <url>
+    <loc>https://getwilds.org/help.html</loc>
+    <lastmod>2025-05-07T23:36:26.030Z</lastmod>
+  </url>
+  <url>
+    <loc>https://getwilds.org/LICENSE.html</loc>
+    <lastmod>2025-05-07T23:36:26.022Z</lastmod>
+  </url>
+  <url>
+    <loc>https://getwilds.org/getinvolved.html</loc>
+    <lastmod>2025-05-07T23:36:26.030Z</lastmod>
   </url>
 </urlset>
