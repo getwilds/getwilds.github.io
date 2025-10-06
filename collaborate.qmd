@@ -3,12 +3,18 @@ title: "WILDS Collaborative Projects"
 toc: false
 ---
 
+Are you a data-driven researcher looking to share your data and discoveries in
+a web application, bring more automation to your science, or tranform analysis
+scripts into software, but you lack the time, resources, or skills in your
+group? Let us help!
 *WILDS Collaborative Projects* is our flagship partnership program. We work
 directly with researchers, principal investigators, and staff at Fred Hutch to
 co-design and build software tools that solve real-world scientific and
 operational challenges. **This opportunity is provided at no
 cost** to the teams we choose to partner with. We are happy to discuss a
-potential collaboration with anyone at Fred Hutch; the first step is to reach
+potential collaboration with anyone at Fred Hutch.
+
+The first step is to reach
 out to express your interest by sending us an email at `wilds@fredhutch.org`.
 After you reach out, we will send you an intake form where you can
 describe your idea for collaboration in detail, and we will schedule a call
@@ -18,15 +24,17 @@ proposal we can get started working together. Typically, our
 collaborative projects last three to eight months once we agree on the project
 scope.
 
+What projects are a good fit for WILDS Collaborative Projects?
 We are more likely to be open to an opportunity to collaborate if the project
 you have in mind fits one or more of the following criteria:
 
 - The deliverables of the collaboration have potential applications beyond an
 individual lab or group, better yet if the potential value can extend beyond
 Fred Hutch.
-- The project will produce open source deliverables, the project enables the
-distribution of open source resources (e.g. datasets), or the project leverages
-open source technologies.
+- The project will produce open source deliverables (e.g. Python or R packages),
+the project enables the
+distribution of open source or open license resources (e.g. datasets), or the
+project leverages open source technologies.
 - Project deliverables include software packages written in Python or R that
 will be widely distributed.
 - The project leads to or includes the development of websites or interactive
