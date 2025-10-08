@@ -3,10 +3,10 @@ title: "Get Involved"
 toc: false
 ---
 
-## DASL Guide
+## Contributor Guide
 
 We maintain the [WILDS Contributor Guide][guide] as a collection of guidelines,
-review criteria, and best practices for developing production-ready WDL and 
+review criteria, and best practices for developing production-ready WDL and
 Nextflow workflows, research compendia, Docker files and software.
 
 Our goal in developing the WILDS Contributor Guide is not just limited to the
@@ -17,14 +17,14 @@ quality.
 
 ## Make a contribution
 
-If you would like to make a contribution to any DaSL WILDS projects please open 
-a pull request in the appropriate GitHub repository. For example, if you want to 
-make a contribution to the [sixtyfour][] package, open a pull request in 
+If you would like to make a contribution to any WILDS projects please open
+a pull request in the appropriate GitHub repository. For example, if you want to
+make a contribution to the [sixtyfour][] package, open a pull request in
 the repository for that package at <https://github.com/getwilds/sixtyfour/>.
 We are interested in accepting many different types of contributions. If you
 have not contributed to WILDS in the past, get in touch by emailing us and we
 would be happy to discuss the contribution you have in mind. Contributions in
-the form of reporting reproducable bugs, bug fixes, new  features, improved 
+the form of reporting reproducable bugs, bug fixes, new  features, improved
 documentation, additional software tests, translation and localization, blogs,
 or tutorials are all welcome.
 

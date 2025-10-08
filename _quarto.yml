@@ -15,8 +15,8 @@ website:
       - help.qmd
       - getinvolved.qmd
     right:
-      - href: "https://hutchdatascience.org/"
-        text: DaSL
+      - href: "https://ocdo.fredhutch.org/"
+        text: OCDO
       - href: "https://github.com/getwilds/"
         text: "{{< fa brands github >}}"
 
