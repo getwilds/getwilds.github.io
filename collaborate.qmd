@@ -73,6 +73,8 @@ performance computing resources, or where users could upload their data for
 long term storage. We are happy to direct you to existing computing platforms
 that may fit your needs.
 
+## Continuous proposal review
+
 This is an **ongoing call for proposals** and there is no specific deadline. We
 review ideas and start new collaborations throughout the year.
 
