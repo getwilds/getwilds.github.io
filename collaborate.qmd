@@ -14,9 +14,9 @@ operational challenges. **This opportunity is provided at no
 cost** to the teams we choose to partner with. We are happy to discuss a
 potential collaboration with anyone at Fred Hutch.
 
-## How to Get Started
+## How to get started
 
-1. Email us at wilds@fredhutch.org to express your interest.
+1. Email us at `wilds@fredhutch.org` to express your interest.
 2. We will send you an intake form to describe your idea in more detail.
 3. We will then schedule a call to discuss your project goals and feasibility.
 4. Together, we will develop a project proposal for approval.
@@ -43,7 +43,7 @@ web applications that promote [Fred Hutch's Strategic Priorities][fh-strat].
 - The project can be well-scoped, meaning the deliverables and requirements can
 be defined in detail, and success can be clearly evaluated.
 
-## What to Expect from a Collaboration
+## What to expect from a collaboration
 
 WILDS Collaborative Projects are designed to be **focused, time-bound
 partnerships**. Our typical contributions include:
@@ -60,14 +60,14 @@ rather than those requiring ongoing software maintenance or multi-year
 development. We are open to, although we cannot commit to in advance, iterations
 on prior collaborations that include maintenance work.
 
-## What might *Not* be a Good Fit
+## What might *not* be a good fit
 
 To make the most of this opportunity, we generally do not select projects that:
 
 - Require creating a data analysis or models that describe patterns in a dataset.
 However, if you consistently receive hard to parse data, or you need to
 visualize the same data periodically, we could support you in building software
-so that you can streamline your analysis.
+to streamline your analysis.
 - Include building online computing platforms, where users could access high
 performance computing resources, or where users could upload their data for
 long term storage. We are happy to direct you to existing computing platforms
