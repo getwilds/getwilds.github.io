@@ -11,6 +11,8 @@ website:
       - href: index.qmd
         text: Home
       - projects.qmd
+      - href: collaborate.qmd
+        text: Collaborate
       #- learn.qmd
       - help.qmd
       - getinvolved.qmd
