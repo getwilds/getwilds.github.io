@@ -11,7 +11,7 @@ website:
       - href: index.qmd
         text: Home
       - projects.qmd
-      - href: collaborate.qmd
+      - href: https://ocdo.fredhutch.org/programs/wildscp.html
         text: Collaborate
       #- learn.qmd
       - help.qmd
