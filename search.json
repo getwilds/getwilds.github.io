@@ -7,60 +7,11 @@
     "text": "R Packages\n\n\n\n\n\nrcromwell\n\nR client for interacting with Cromwell with WDL workflows\n\n\n\n\n\n\n\n\n\n\n\n\n\nsixtyfour\n\n🚚 AWS for Data Scientists\n\n\n\n\n\n\n\n\n\n\n\n\n\ncancerprof\n\nAPI Client for State Cancer Profiles\n\n\n\n\n\n\n\n\n\n\n\n\n\nproofr\n\nClient for the PROOF API\n\n\n\n\n\n\n\n\n\n\n\n\n\nbs\n\nBootstrap Components for DASL Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\nrls\n\nRow Level Security Functions for PostgreSQL and Redshift\n\n\n\n\n\n\n\n\n\n\n\n\nPython Packages\nComing soon!\n\n\nDocker Recipes\n\n\n\n\n\nwilds-docker-library\n\nCollection of Docker images for use in WILDS bioinformatics workflows\n\n\n\n\n\n\n\n\n\n\n\n\nResearch Compendia\nComing soon!\n\n\nWDLs\n\n\n\n\n\nww-cell-ranger\n\nA basic starting point for a cell ranger workflow\n\n\n\n\n\n\n\n\n\n\n\n\n\nww-star-deseq2\n\nWILDS WDL workflow that executes STAR+DESeq2 on RNAseq data\n\n\n\n\n\n\n\n\n\n\n\n\n\nww-fastq-to-cram\n\nSelf-contained WDL workflow that converts a WGS FASTQ file into an unmapped CRAM file\n\n\n\n\n\n\n\n\n\n\n\n\n\nww-vc-trio\n\nVariant calling WDL workflow using a trio of variant callers and analyzing consensus among them\n\n\n\n\n\n\n\n\n\n\n\n\n\nww-sourmash\n\nSelf-contained WDL workflow that uses Sourmash to perform similarity searches between sequence files.\n\n\n\n\n\n\n\n\n\n\n\n\n\nww-shapemapper\n\nSelf-contained WDL workflow that uses Shapemapper\n\n\n\n\n\n\n\n\n\n\n\n\n\nww-salmon\n\nSelf-contained WDL workflow that uses the Salmon RNA-seq computational tool.\n\n\n\n\n\n\n\n\n\n\n\n\nNextFlow\nComing soon!\n\n\nRepos status tally\n\n\n\n\n\n\n \n\n \n8\n\n\n\n\n\n\n\n \n\n \n2\n\n\n\n\n\n\n\n \n\n \n4"
   },
   {
-    "objectID": "collaborate.html",
-    "href": "collaborate.html",
-    "title": "WILDS Collaborative Projects",
+    "objectID": "learn.html",
+    "href": "learn.html",
+    "title": "Learn",
     "section": "",
-    "text": "Are you a data-driven researcher looking to share your data and discoveries in a web application, bring more automation to your science, or transform analysis scripts into software, but you lack the time, resources, or skills in your group? Let us help! WILDS Collaborative Projects is our flagship partnership program. We work directly with researchers, principal investigators, and staff at Fred Hutch to co-design and build software tools that solve real-world scientific and operational challenges. This opportunity is provided at no cost to the teams we choose to partner with. We are happy to discuss a potential collaboration with anyone at Fred Hutch."
-  },
-  {
-    "objectID": "collaborate.html#how-to-get-started",
-    "href": "collaborate.html#how-to-get-started",
-    "title": "WILDS Collaborative Projects",
-    "section": "How to get started",
-    "text": "How to get started\n\nEmail us at wilds@fredhutch.org to express your interest.\nWe will send you an intake form to describe your idea in more detail.\nWe will then schedule a call to discuss your project goals and feasibility.\nTogether, we will develop a project proposal for approval.\n\nOnce the project proposal is approved by you and our leadership team, projects typically last three to eight months, depending on scope."
-  },
-  {
-    "objectID": "collaborate.html#what-projects-are-a-good-fit-for-wilds-collaborative-projects",
-    "href": "collaborate.html#what-projects-are-a-good-fit-for-wilds-collaborative-projects",
-    "title": "WILDS Collaborative Projects",
-    "section": "What projects are a good fit for WILDS Collaborative Projects?",
-    "text": "What projects are a good fit for WILDS Collaborative Projects?\nWe are more likely to be open to an opportunity to collaborate if the project you have in mind fits one or more of the following criteria:\n\nThe deliverables of the collaboration have potential applications beyond an individual lab or group, better yet if the potential value can extend beyond Fred Hutch.\nThe project will produce open source deliverables (e.g. Python or R packages), the project enables the distribution of open source or open license resources (e.g. datasets, websites), or the project leverages open source technologies.\nProject deliverables include software packages written in Python or R that will be widely distributed.\nThe project leads to or includes the development of websites or interactive web applications that promote Fred Hutch’s Strategic Priorities.\nThe project can be well-scoped, meaning the deliverables and requirements can be defined in detail, and success can be clearly evaluated."
-  },
-  {
-    "objectID": "collaborate.html#what-to-expect-from-a-collaboration",
-    "href": "collaborate.html#what-to-expect-from-a-collaboration",
-    "title": "WILDS Collaborative Projects",
-    "section": "What to expect from a collaboration",
-    "text": "What to expect from a collaboration\nWILDS Collaborative Projects are designed to be focused, time-bound partnerships. Our typical contributions include:\n\n3–8 months of collaboration time, depending on project complexity.\nA dedicated WILDS software, data scientist, or user experience researcher contributing roughly 20% effort.\nSupport for co-design, development, testing, and documentation of your software, web application, website, or resource.\nRegular check-ins and progress reviews with your research team.\n\nWe prioritize projects that we can complete and deliver within that window rather than those requiring ongoing software maintenance or multi-year development. We are open to, although we cannot commit to in advance, iterations on prior collaborations that include maintenance work."
-  },
-  {
-    "objectID": "collaborate.html#what-might-not-be-a-good-fit",
-    "href": "collaborate.html#what-might-not-be-a-good-fit",
-    "title": "WILDS Collaborative Projects",
-    "section": "What might not be a good fit",
-    "text": "What might not be a good fit\nTo make the most of this opportunity, we generally do not select projects that:\n\nRequire creating a data analysis or models that describe patterns in a dataset. However, if you consistently receive hard to parse data, or you need to visualize the same data periodically, we could support you in building software to streamline your analysis.\nInclude building online computing platforms, where users could access high performance computing resources, or where users could upload their data for long term storage. We are happy to direct you to existing computing platforms that may fit your needs."
-  },
-  {
-    "objectID": "collaborate.html#continuous-proposal-review",
-    "href": "collaborate.html#continuous-proposal-review",
-    "title": "WILDS Collaborative Projects",
-    "section": "Continuous proposal review",
-    "text": "Continuous proposal review\nThis is an ongoing call for proposals and there is no specific deadline. We review ideas and start new collaborations throughout the year.\nUltimately, our goal is to build tools and resources that others can reuse, contribute to, and grow. By working together, we hope to create resources and software that supports research at Fred Hutch and amplifies our impact across the broader scientific community. Our team is excited to learn about your needs and ideas so we can explore what we can build together."
-  },
-  {
-    "objectID": "help.html",
-    "href": "help.html",
-    "title": "Help",
-    "section": "",
-    "text": "Depending on what kind of help you need, there are different resources you can consult:\n\nIf you would like to ask a question about any WILDS projects, do not hesitate to email us at wilds@fredhutch.org.\nIf you are a developer or you are familiar with GitHub, you can also open an issue on the GitHub repository that corresponds to the project you are interested in: https://github.com/getwilds/. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that project at https://github.com/getwilds/sixtyfour/issues.\nIf you are a member of our Slack organization, you are welcome to ask a question in our #general channel. If you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to join our Slack, please email us.\nSimilarly, if you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to have a face-to-face conversation please schedule a Data House Call and mention WILDS in the booking."
-  },
-  {
-    "objectID": "help.html#we-would-be-happy-to-help-you-with-wilds",
-    "href": "help.html#we-would-be-happy-to-help-you-with-wilds",
-    "title": "Help",
-    "section": "",
-    "text": "Depending on what kind of help you need, there are different resources you can consult:\n\nIf you would like to ask a question about any WILDS projects, do not hesitate to email us at wilds@fredhutch.org.\nIf you are a developer or you are familiar with GitHub, you can also open an issue on the GitHub repository that corresponds to the project you are interested in: https://github.com/getwilds/. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that project at https://github.com/getwilds/sixtyfour/issues.\nIf you are a member of our Slack organization, you are welcome to ask a question in our #general channel. If you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to join our Slack, please email us.\nSimilarly, if you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to have a face-to-face conversation please schedule a Data House Call and mention WILDS in the booking."
+    "text": "something about the training we offer?\npoint to package docs?\npoint to package sciwiki pages?\npoint to external resources?"
   },
   {
     "objectID": "index.html",
@@ -77,11 +28,18 @@
     "text": "Open source software has allowed the biomedical data science community to flourish. Therefore to encourage open science practices and to cultivate the development of open source software at Fred Hutch, the Office of the Chief Data Officer (OCDO) created WILDS, the open source software office of the Fred Hutch Cancer Center. WILDS stands for Workflows Integrating Large Data and Software, which highlights our focus on people in their day-to-day scientific work. The mission of WILDS includes the following:\n\nEngage with the Cancer Consortium community about how they can adopt open science practices into their own workflows.\nEducate our community about the critical role that open source software plays in biomedical data science practice.\nSupport open source software developers across the Cancer Consortium.\nElevate the quality of open-source software being developed at Fred Hutch.\nEmpower new open-source developers by evangelizing best practices and catalyzing community around the open-source software development process.\nConnect developers, researchers, and providers to opportunities to share, academically publish, and publicize their software.\nCollaborate within the Fred Hutch community to build the next generation of open-source software tools.\n\n\n\n\nTo support our mission, WILDS is actively engaged in the following activities:\n\nWe maintain, distribute, and publish open source scientific software, mostly implemented in the Python and R ecosystems.\nWe maintain and distribute open source scientific workflows implemented in WDL or Nextflow.\nWe develop research compendia to demonstrate common data analyses and how they can best be organized and shared.\nWe package and develop Docker recipes and Dockerfiles so that researchers can run pipelines in consistent computing environments.\nWe create and maintain documentation about how to use and contribute to WILDS resources.\nWe co-sponsor and create materials for DaSL’s Community Studios.\n\nAll of these open source resources are designed for researchers to either use off-the-shelf or as tools and templates that they can adapt into their own work. Click on any of the boxes below to explore the resources that WILDS has to offer.\n\n\n\n\n\n\n\nR Packages\n\n\n\n\n\n\n\n\n\n\n\n\nPython Packages\n\n\n\n\n\n\n\n\n\n\n\n\nDocker Recipes\n\n\n\n\n\n\n\n\n\n\n\n\nResearch Compendia\n\n\n\n\n\n\n\n\n\n\n\n\nWDL Workflows\n\n\n\n\n\n\n\n\n\n\n\n\nNextflow Workflows"
   },
   {
-    "objectID": "learn.html",
-    "href": "learn.html",
-    "title": "Learn",
+    "objectID": "help.html",
+    "href": "help.html",
+    "title": "Help",
     "section": "",
-    "text": "something about the training we offer?\npoint to package docs?\npoint to package sciwiki pages?\npoint to external resources?"
+    "text": "Depending on what kind of help you need, there are different resources you can consult:\n\nIf you would like to ask a question about any WILDS projects, do not hesitate to email us at wilds@fredhutch.org.\nIf you are a developer or you are familiar with GitHub, you can also open an issue on the GitHub repository that corresponds to the project you are interested in: https://github.com/getwilds/. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that project at https://github.com/getwilds/sixtyfour/issues.\nIf you are a member of our Slack organization, you are welcome to ask a question in our #general channel. If you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to join our Slack, please email us.\nSimilarly, if you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to have a face-to-face conversation please schedule a Data House Call and mention WILDS in the booking."
+  },
+  {
+    "objectID": "help.html#we-would-be-happy-to-help-you-with-wilds",
+    "href": "help.html#we-would-be-happy-to-help-you-with-wilds",
+    "title": "Help",
+    "section": "",
+    "text": "Depending on what kind of help you need, there are different resources you can consult:\n\nIf you would like to ask a question about any WILDS projects, do not hesitate to email us at wilds@fredhutch.org.\nIf you are a developer or you are familiar with GitHub, you can also open an issue on the GitHub repository that corresponds to the project you are interested in: https://github.com/getwilds/. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that project at https://github.com/getwilds/sixtyfour/issues.\nIf you are a member of our Slack organization, you are welcome to ask a question in our #general channel. If you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to join our Slack, please email us.\nSimilarly, if you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to have a face-to-face conversation please schedule a Data House Call and mention WILDS in the booking."
   },
   {
     "objectID": "getinvolved.html",
