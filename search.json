@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "R Packages\n\n\n\n\n\nrcromwell\n\nR client for interacting with Cromwell with WDL workflows\n\n\n\n\n\n\n\n\n\n\n\n\n\nsixtyfour\n\n🚚 AWS for Data Scientists\n\n\n\n\n\n\n\n\n\n\n\n\n\ncancerprof\n\nAPI Client for State Cancer Profiles\n\n\n\n\n\n\n\n\n\n\n\n\n\nproofr\n\nClient for the PROOF API\n\n\n\n\n\n\n\n\n\n\n\n\n\nbs\n\nBootstrap Components for DASL Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\nrls\n\nRow Level Security Functions for PostgreSQL and Redshift\n\n\n\n\n\n\n\n\n\n\n\n\nPython Packages\nComing soon!\n\n\nDocker Recipes\n\n\n\n\n\nwilds-docker-library\n\nCollection of Docker images for use in WILDS bioinformatics workflows\n\n\n\n\n\n\n\n\n\n\n\n\nResearch Compendia\nComing soon!\n\n\nWDLs\n\n\n\n\n\nwilds-wdl-library\n\nCollection of bioinformatics-related WDL modules and pipelines\n\n\n\n\n\n\n\n\n\n\n\n\nNextFlow\nComing soon!\n\n\nRepos status tally\n\n\n\n\n\n\n \n\n \n1\n\n\n\n\n\n\n\n \n\n \n2\n\n\n\n\n\n\n\n \n\n \n4"
-  },
-  {
     "objectID": "getinvolved.html",
     "href": "getinvolved.html",
     "title": "Get Involved",
@@ -40,6 +33,13 @@
     "title": "Help",
     "section": "",
     "text": "Depending on what kind of help you need, there are different resources you can consult:\n\nIf you would like to ask a question about any WILDS projects, do not hesitate to email us at wilds@fredhutch.org.\nIf you are a developer or you are familiar with GitHub, you can also open an issue on the GitHub repository that corresponds to the project you are interested in: https://github.com/getwilds/. For example, if you have an issue or question with the sixtyfour package, open an issue in the issue tracker for that project at https://github.com/getwilds/sixtyfour/issues.\nIf you are a member of our Slack organization, you are welcome to ask a question in our #general channel. If you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to join our Slack, please email us.\nSimilarly, if you are a Fred Hutch employee or you work for one of the organizations in the Cancer Consortium and you would like to have a face-to-face conversation please schedule a Data House Call and mention WILDS in the booking."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "R Packages\n\n\n\n\n\nrcromwell\n\nR client for interacting with Cromwell with WDL workflows\n\n\n\n\n\n\n\n\n\n\n\n\n\nsixtyfour\n\n🚚 AWS for Data Scientists\n\n\n\n\n\n\n\n\n\n\n\n\n\ncancerprof\n\nAPI Client for State Cancer Profiles\n\n\n\n\n\n\n\n\n\n\n\n\n\nproofr\n\nClient for the PROOF API\n\n\n\n\n\n\n\n\n\n\n\n\n\nbs\n\nBootstrap Components for DASL Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\nrls\n\nRow Level Security Functions for PostgreSQL and Redshift\n\n\n\n\n\n\n\n\n\n\n\n\nPython Packages\nComing soon!\n\n\nDocker Recipes\n\n\n\n\n\nwilds-docker-library\n\nCollection of Docker images for use in WILDS bioinformatics workflows\n\n\n\n\n\n\n\n\n\n\n\n\nResearch Compendia\nComing soon!\n\n\nWDLs\n\n\n\n\n\nwilds-wdl-library\n\nCollection of bioinformatics-related WDL modules and pipelines\n\n\n\n\n\n\n\n\n\n\n\n\nNextFlow\nComing soon!\n\n\nRepos status tally\n\n\n\n\n\n\n \n\n \n1\n\n\n\n\n\n\n\n \n\n \n2\n\n\n\n\n\n\n\n \n\n \n4"
   },
   {
     "objectID": "learn.html",
